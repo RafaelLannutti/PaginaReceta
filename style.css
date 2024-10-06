@@ -7,7 +7,43 @@
     text-align: center;
   }
   
-  /* Add some margin to the content to make room for the header */
   body {
     margin-top: 50px;
   }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  li:not(:last-child):after {
+    content: "|";
+    position: absolute;
+    right: -10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 100px; 
+    height: 100px; 
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 100px;
+    
+  }
+  
