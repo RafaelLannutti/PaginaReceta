@@ -1,0 +1,13 @@
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add some margin to the content to make room for the header */
+  body {
+    margin-top: 50px;
+  }
